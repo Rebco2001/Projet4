@@ -704,6 +704,12 @@ p {
     margin: auto auto auto auto;
 }
 
+.corps-text{
+    font-size: 22px;
+    line-height: 1.4em;
+    margin: 0% 15%;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
