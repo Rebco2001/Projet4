@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
+    opacity: 0.5;
 }
 
 .b-parallax {
@@ -759,7 +760,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -787,6 +788,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    filter: brightness(0.5);
 }
 
 .btn-atomic-tangerine:hover {
@@ -825,6 +827,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
+    filter: brightness(1.5);
 }
 
 .bg-presentation {
