@@ -81,35 +81,30 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group" aria-label="nom">
-						<label for="Nom">
-							Nom
-						</label>
-						<input class="form-control" type="name" required id="name"/>
-					</div>
 					<div>
 						<label for="firstname" class="form-group">
-							First name:
+							Nom
 						</label> 
 						<input class="form-control" type="text" id="firstname">
 					</div>
-					<div class="form-group" aria-label="email">
-						<label for="email">
+					<div>
+						<label for="email" class="form-group">
 							Adresse email
-						</label>
-						<input class="form-control" type="email" required id="email"/>
+						</label> 
+						<input class="form-control" type="text" id="email">
 					</div>
-					<div class="form-group" arial-label="connaissance">
-						<label for="texte">
+					<div>
+						<label for="text" class="form-group">
 							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						</label> 
+						<input class="form-control" type="text" id="text">
 					</div>
-					<div class="form-group" aria-label="informations complémentaires">
-						<label for="texte">
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea class="form-control" rows="4" cols="50" required id="message"></textarea>
-					</div> 
+					<div>
+						<label for="text" class="form-group">
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)
+						</label> 
+						<textarea class="form-control" rows="4" cols="50" required id="message"></textarea>
+					</div>
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="bouton d'envoi">
 						Envoyer
 					</button>
